@@ -1,0 +1,61 @@
+/*
+【書き順ルール】
+color
+font-***
+text-***
+background
+width
+height
+border
+margin
+padding
+float
+overflow
+display
+z-index
+*/
+
+
+body {
+	font-family: Arial, sans-serif;
+}
+
+.container {
+	width: 90%;
+	margin: 15px auto;
+}
+
+h1 {
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+ul > li {
+	padding-bottom: 6px;
+}
+
+#new-todo {
+	font-size: 16px;
+	width: 80%;
+	border-radius: 3px;
+	margin: 0 auto 15px;
+	padding: 8px;
+}
+
+.delete-todo {
+	color: #ccc;
+	float: right;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.done {
+	text-decoration: line-through;
+}
